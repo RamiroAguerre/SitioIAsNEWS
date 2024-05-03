@@ -1,0 +1,64 @@
+
+.header{
+    margin-right: 10px;
+    list-style: none; 
+    color: rgb(218, 218, 218);
+    font-size: 22px;
+}
+
+.container2{
+    display: flex;
+    padding-right:3px;
+    padding-left: 3px;
+}
+
+.container5{
+    background-color: #5e5b5b;
+}
+
+.container7{
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.title{
+    margin-bottom: 15px;
+    font-weight:600;
+}
+
+.background{
+    background-color: #616161;
+}
+
+.p {
+    float: right;
+    border: red solid;
+    background-color: blue;
+    max-width:  5%;
+    max-height:  5%;
+    font-style: none;
+}
+
+.caja{
+    position: relative;
+    top:100px;
+    left: 100px;
+}
+
+.lip {
+    position:relative;
+    border: rgb(22, 203, 91) solid;
+    background-color: blue;
+    top:100px;
+    left: 100px;
+}
+
+.clear{
+
+};
+
+@media only screen and(min-width:600px){
+    .bory{
+        max-width: 100%;
+    };
+}
